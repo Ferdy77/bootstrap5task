@@ -1,0 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media(min-width: 768px) {
+  .news-input, .contact-card {
+    width: 50%;
+  }
+}
+
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 0 5px 5px 5px black;
+}
+
+
+.logo-img {
+  filter: brightness(0) invert(1);
+  width: 13.5rem;
+}
+
+.carousel-inner .carousel-item  {
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+}
+
+.card-image-top {
+  height: 15rem;
+}
+
+
+
+.school-img {
+  height: 20rem;
+  object-fit:contain;
+}
+
+
+
+.school-card-text {
+  text-align: justify;
+}
+
+#kindergaten, #nursery, #primary {
+  padding-top: 10.5rem;
+}
+
+.main-address, .phone-number, .whatsapp-number, .email-address {
+  height: 12.5rem;
+  width: 5rem;
+}
+ 
+.map-icon, .phone-icon, .whatsapp-icon, .email-icon {
+  color: #00BFFF;
+}
+
+.contact-background {
+  background-color: #696969;
+}
+
+.img-size {
+  font-size: 2rem;
+}
