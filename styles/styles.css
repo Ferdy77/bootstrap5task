@@ -23,6 +23,10 @@ img.logo-img  {
   filter: brightness(0) invert(1);
   width: 13.5rem;
 }
+img.main-image {
+  filter: brightness(0) invert(1);
+  width: 13.5rem;
+}
 
 .carousel-inner .carousel-item  {
   object-fit: cover;
